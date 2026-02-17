@@ -21,7 +21,7 @@ from solution.consumer_sol import mqConsumer  # pylint: disable=import-error
 
 
 def main() -> None:
-    consumer = mqConsumer(binding_key="Tech Lab Key",exchange_name="Tech Lab Exchange",queue_name="Tech Lab Queue")
+    consumer = mqConsumer(binding_key="Tech Lab Key",exchange_name="Tech Lab Exchange",queue_name="tono lab queue")
     consumer.startConsuming()
 
 
